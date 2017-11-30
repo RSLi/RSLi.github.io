@@ -56,9 +56,6 @@ const HomePage = ({classes}) => {
                                     Undergraduate Research Assistant <br />
                                     Former Software Engineering Intern at <strong>Panasonic</strong><br/>
                                 </Typography>
-                                <Typography component="p">
-                                    Experienced with Java, Python, JavaScript
-                                </Typography>
                             </CardContent>
                             <CardActions>
                                 <Button color="primary">
