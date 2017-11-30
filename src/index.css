@@ -1,5 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    padding-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: #e0e0eb;
+    /* background-image: url('./bg.jpg');
+    background-size: cover; */
 }
