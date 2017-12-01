@@ -12,6 +12,7 @@ import DraftsIcon from 'material-ui-icons/Drafts';
 import AttachFile from 'material-ui-icons/AttachFile';
 import OpenInNew from 'material-ui-icons/OpenInNew';
 import portrait from './portrait.jpg';
+import resume from './resume.pdf';
 
 const styles = theme => ({
     root: {
@@ -58,7 +59,7 @@ const HomePage = ({classes}) => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button color="primary">
+                                <Button color="primary" href={resume}>
                                     Get Resume
                                 </Button>
                             </CardActions>
@@ -68,7 +69,7 @@ const HomePage = ({classes}) => {
                         <Card className={classes.card}>
                             <CardContent>
                                 <List subheader={<ListSubheader>Links</ListSubheader>}>
-                                    <ListItem button component="a" href="">
+                                    <ListItem button component="a" href={resume}>
                                         <ListItemIcon><AttachFile /></ListItemIcon>
                                         <ListItemText primary="Resume"/>
                                     </ListItem>
