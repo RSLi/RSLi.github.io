@@ -40,7 +40,6 @@ const HomePage = ({classes}) => {
 
             <div style={{ marginTop: '0vh' }}>
                 <Grid container spacing={0}>
-                    <Grid item xs={0} sm={3}></Grid>
                     <Grid item xs={12} sm={3}>
                         <Card className={classes.card}>
                             <CardMedia
@@ -65,7 +64,7 @@ const HomePage = ({classes}) => {
                             </CardActions>
                         </Card>
                     </Grid>
-                    <Grid item xs={12} sm={3}>
+                    <Grid item xs={12} sm={9}>
                         <Card className={classes.card}>
                             <CardContent>
                                 <List subheader={<ListSubheader>Links</ListSubheader>}>
@@ -93,6 +92,7 @@ const HomePage = ({classes}) => {
                             </CardContent>
                         </Card>
                     </Grid>
+                    <Grid item xs={0} sm={3}></Grid>
                     <Grid item xs={0} sm={3}></Grid>
                 </Grid>
             </div>
