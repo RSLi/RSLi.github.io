@@ -4,6 +4,8 @@ Since personal github page works differently compared to the normal gh-pages str
 
 ``` shell
 yarn build
+git add -A
+git commit -m "Update Site"
 git push origin master
 
 ```
