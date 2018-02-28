@@ -1,11 +1,11 @@
 import React from 'react';
+import { Document, Page } from 'react-pdf';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Grid from 'material-ui/Grid';
 import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
-import ListSubheader from 'material-ui/List/ListSubheader';
 import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import Button from 'material-ui/Button';
 import DraftsIcon from 'material-ui-icons/Drafts';
@@ -28,6 +28,7 @@ const styles = theme => ({
 });
 
 const HomePage = ({classes}) => {
+    let pdfWidth = window.innerWidth / 2;
     return (
         <div className={classes.root}>
             <AppBar position="static" color="default">
@@ -40,6 +41,11 @@ const HomePage = ({classes}) => {
 
             <div style={{ marginTop: '0vh' }}>
                 <Grid container spacing={0}>
+                    <Grid item xs={12} sm={12}>
+                        <Button raised color="accent" href={resume} style={{ width: '100%' }}>
+                            Get a copy of my resume
+                        </Button>
+                    </Grid>
                     <Grid item xs={12} sm={3}>
                         <Card className={classes.card}>
                             <CardMedia
@@ -59,15 +65,15 @@ const HomePage = ({classes}) => {
                             </CardContent>
                             <CardActions>
                                 <Button color="primary" href={resume}>
-                                    Get Resume
+                                    Download Resume
                                 </Button>
                             </CardActions>
                         </Card>
                     </Grid>
-                    <Grid item xs={12} sm={9}>
+                    <Grid item xs={12} sm={3}>
                         <Card className={classes.card}>
                             <CardContent>
-                                <List subheader={<ListSubheader>Links</ListSubheader>}>
+                                <List>
                                     <ListItem button component="a" href={resume}>
                                         <ListItemIcon><AttachFile /></ListItemIcon>
                                         <ListItemText primary="Resume"/>
@@ -92,8 +98,17 @@ const HomePage = ({classes}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item xs={0} sm={3}></Grid>
-                    <Grid item xs={0} sm={3}></Grid>
+
+                    {
+                        pdfWidth > 500 && (
+                            <Grid item xs={0} sm={6}>
+                                <Document file={resume}>
+                                    <Page pageNumber={1} width={pdfWidth} />
+                                </Document>
+                            </Grid>
+                        )
+                    }
+
                 </Grid>
             </div>
         </div>
