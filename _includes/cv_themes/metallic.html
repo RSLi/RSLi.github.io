@@ -1,16 +1,33 @@
 <style>
-    body {
-        background-color: silver;
-    }
-    #cv .cv-description {
-        color: #313131ea;
-        font-weight: 300;
-    }
+body {
+    background-color: silver;
+}
+#cv .cv-description {
+    color: #313131ea;
+    font-weight: 300;
+}
+.theme-social-button a {
+    display: inline-block;
+    background: darkblue;
+    color: lightgrey;
+    padding: 5px 20px 5px 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.theme-social-button a:hover {
+    text-decoration: none;
+    background: silver;
+}
+.theme-social-button a:hover:after {
+    content: " \00bb";
+}
 </style>
 <div style="background: grey; padding-left: 15vw; padding-top: 50px;">
     <h1 style="color: whitesmoke">{{ site.author.name | smartify }}</h1>
     <div style="height: 50px"></div>
     <p style="color: whitesmoke">{{ site.author.self_intro }}</p>
+    <div style="height: 25px"></div>
+    <p class="theme-social-button">{% include social.html %}</p>
     <div style="height: 25px"></div>
 </div>
 <div>

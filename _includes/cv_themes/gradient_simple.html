@@ -1,7 +1,26 @@
+<style>
+.theme-social-button a {
+    display: inline-block;
+    background: linear-gradient(90deg, #f4fdff, #e0faff);
+    color: grey;
+    padding: 4px 30px 4px 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.theme-social-button a:hover {
+    text-decoration: none;
+    background: white;
+}
+.theme-social-button a:hover:after {
+    content: " \00bb";
+}
+</style>
 <div style="background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); padding-left: 15vw; padding-top: 50px;">
     <h1 style="color: whitesmoke">{{ site.author.name | smartify }}</h1>
     <div style="height: 50px"></div>
     <p style="color: whitesmoke">{{ site.author.self_intro }}</p>
+    <div style="height: 25px"></div>
+    <p class="theme-social-button">{% include social.html %}</p>
     <div style="height: 25px"></div>
 </div>
 
