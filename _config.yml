@@ -7,6 +7,9 @@ tagline:             Under Development
 url:                 ""
 baseurl:             ""
 
+# Google Analytics Tracking Code (Ignore if you are not using Google Analytics)
+ga_tracking_code:    UA-116657822-1
+
 # CV Theme
 # - This is different from Jekyll Theme
 # - This selects a layout in the _includes/cv_themes directory for your CV
