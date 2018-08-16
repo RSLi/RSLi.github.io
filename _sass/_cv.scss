@@ -1,0 +1,159 @@
+#cv h1,
+#cv h2,
+#cv h3,
+#cv h4,
+#cv h5,
+#cv h6,
+#cv p,
+#cv blockquote,
+#cv ul,
+#cv ol,
+#cv dl,
+#cv table,
+#cv time,
+#cv .message,
+#cv .highlight,
+#cv .gist-file,
+#cv .pagination,
+#cv .cv-container,
+hr {
+	max-width: $container-max-width; //should match .container max-width 
+	margin-left: 10rem;
+}
+
+.cv-award {
+	color: #FBC02D;
+}
+
+#cv a {
+	color: #515151;
+}
+
+#cv a:hover {
+	color: #2196F3;
+	text-decoration: none;
+}
+
+#cv .paper-misc {
+	color: #9a9a9a;
+	// color: #2196F3;
+}
+
+#cv .paper-misc a {
+	color: #9a9a9a;
+	// color: #2196F3;
+}
+
+#cv .paper-misc a:hover {
+	// color: #9a9a9a;
+	color: #2196F3;
+}
+
+#cv h3 {
+	margin-top: 1.5rem;
+	font-weight: 300;
+	page-break-after: avoid;
+}
+
+#cv h2 {
+	margin-top: 2.5rem;
+	font-weight: 300;
+	color: #313131;
+}
+
+#cv h1 {
+	color: #313131;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	// faking .normal-web-width
+	// max-width: 35rem;
+	// margin-left: auto;
+	// margin-right: auto;
+}
+
+#cv strong {
+	color: #303030;
+	font-size: 1em;
+}
+
+#cv .cv-blue-link a {
+	color: #2196F3;
+}
+
+#cv .cv-left-date {
+	margin-left: -12rem;
+	margin-right: 2rem;
+	text-align: right;
+	width: 10rem;
+	display: inline-block;
+	font-size: 0.7em;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0;
+}
+
+.cv-spacer {
+	margin-top:5px;
+	display:block;
+}
+
+.cv-spacer-award {
+	margin-top: 5px;
+	display: block;
+}
+
+.cv-spacer-line {
+	margin-top: 5px;
+	display: block;
+	background-color: #eee;
+	height: 1px;
+	max-width: 250px;
+	margin-bottom: 5px;
+}
+
+#cv .cv-description {
+	color: #9a9a9a;
+	font-weight: 300;
+}
+
+#cv .cv-description a {
+	color: #9a9a9a;
+}
+
+#cv .cv-description a:hover {
+	color: #2196F3;
+}
+
+// #cv .cv-subtitle {
+// 	font-size: 20px;
+// }
+
+// #cv .cv-pdf {
+// 	padding: 10px;
+// 	border: 1px solid red;
+// }
+
+// #cv time {
+// 	color: #9a9a9a;
+// 	font-weight: 300;
+// 	// faking .normal-web-width
+// 	// max-width: 35rem;
+// 	// margin-left: auto;
+// 	// margin-right: auto;
+// }
+
+#cv .cv-max-width {
+	max-width: $container-max-width;
+	padding-left: 0rem;
+	display: block;
+	font-size: 18px;
+}
+
+// #cv .cv-website-marker {
+// 	border: 1px solid;
+// 	padding-top: 1px;
+// 	padding-bottom: 2px;
+// 	padding-left: 8px;
+// 	padding-right: 8px;
+// 	border-radius: 4px;
+// }

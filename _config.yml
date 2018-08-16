@@ -1,0 +1,29 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Siwei "Robert" Li
+tagline:             Under Development
+url:                 ""
+baseurl:             "/one-cv"
+
+# CV Theme
+# - This is different from Jekyll Theme
+# - This selects a layout in the _includes/cv_themes directory for your CV
+# - You can select from the existing themes or easily create new ones
+cv_theme:            print_only.html
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Your Contact
+author:
+  name:              Siwei "Robert" Li
+  self_intro:        "Georgia Tech CS Undergrad"
+  website:           http://siweili.org
+  twitter:
+  github:            RSLi
+  linkedin:          robertsiweili
+  googlescholar:
+

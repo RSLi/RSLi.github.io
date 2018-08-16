@@ -1,0 +1,25 @@
+<style>
+    body {
+        background-color: silver;
+    }
+    #cv .cv-description {
+        color: #313131ea;
+        font-weight: 300;
+    }
+</style>
+<div style="background: grey; padding-left: 15vw; padding-top: 50px;">
+    <h1 style="color: whitesmoke">{{ site.author.name | smartify }}</h1>
+    <div style="height: 50px"></div>
+    <p style="color: whitesmoke">{{ site.author.self_intro }}</p>
+    <div style="height: 25px"></div>
+</div>
+<div>
+    <div class="container content">
+        <main>
+            <article id="cv" class="page">
+                <div style="height: 25px"></div>
+                {% include item.html list=site.data.items %}
+            </article>
+        </main>
+    </div>
+</div>
