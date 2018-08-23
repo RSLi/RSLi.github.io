@@ -2,7 +2,7 @@
 {% case item.type %}
 
 {% when 'section' %}
-<h3>{{ item.name }}</h3>
+<h3 class="cv-section-title">{{ item.name }}</h3>
 
 {% when 'general' %}
 <p>
@@ -41,7 +41,7 @@
 </p>
 
 {% when 'skill-items' %}
-<div class="cv-container">
+<div class="cv-skill-item">
     <span class="cv-left-date">{{ item.category | default: '' }}</span><span class="cv-description">{{ item.items }}</span>
 </div>
 

@@ -21,6 +21,15 @@ hr {
 	margin-left: 10rem;
 }
 
+#cv .cv-skill-item {
+	max-width: $container-max-width;
+	margin-left: 10rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 @media print {
 	.cv-no-print {
 		display: none !important;

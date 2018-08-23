@@ -15,6 +15,7 @@ ga_tracking_code:    UA-116657822-1
 # - This selects a layout in the _includes/cv_themes directory for your CV
 # - You can select from the existing themes or easily create new ones
 cv_theme:            gradient_simple.html
+resume_theme:        print_only_resume.html
 
 sass:
   sass_dir:          _sass

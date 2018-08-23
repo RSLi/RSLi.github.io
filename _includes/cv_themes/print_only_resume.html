@@ -1,20 +1,29 @@
 <style>
+
 #cv .cv-section-title {
-    margin-top: 0px;
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+#cv .cv-skill-item {
+    margin-top: -2px;
+    margin-bottom: -3px;
 }
 
 #cv p {
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    line-height: 1.1em;
 }
 </style>
 
-<div style="height: 50px"></div>
+<div style="height: 20px"></div>
 
 <div class="container content">
     <main>
@@ -23,8 +32,7 @@
                 <div style="font-size: 35px; font-weight: bold;">{{ site.author.name | smartify }}</div>
                 <div>{% include social.html %}</div>
             </div>
-            <hr />
-            {% include item.html list=site.data.items %}
+            {% include item.html list=site.data.items_resume %}
         </article>
     </main>
 </div>

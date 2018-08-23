@@ -1,0 +1,185 @@
+#------------------------------------
+# Instructions
+# 
+# 
+#------------------------------------
+
+
+#------------------------------------
+# Education
+#------------------------------------
+
+- type: section
+  name: Education
+
+- type: experience
+  date: Fall 2016 - Present
+  org: Georgia Institute of Technology
+  role: B.S. in Computer Science
+  location: Atlanta, GA
+  detail_secondary:
+    - "Expected Graduation: May 2020"
+
+#------------------------------------
+# Industry Experience
+#------------------------------------
+
+- type: section
+  name: Industry Experience
+
+- type: experience
+  date: Summer 2017
+  org: Panasonic Automotive Systems
+  role: Software Engineering Intern
+  location: Peachtree City, GA
+  detail_primary:
+  detail_secondary:
+    - "Developed an extensible visualization tool in React/Redux/Node/d3 that enables engineers to
+create automated sequences that generate various analysis reports; estimated to reduce 30% of testing time."
+
+#------------------------------------
+# Academic Research Experience
+#------------------------------------
+
+- type: section
+  name: Academic Research Experience
+
+- type: experience
+  date: Fall 2017 - Present
+  org: Georgia Institute of Technology
+  role: Undergraduate Research Assistant, School of Computational Science and Engineering
+  location: Atlanta, GA
+  detail_primary:
+    - "Advisor: Polo Chau"
+  detail_secondary:
+    - "Member of the Polo Club of Data Science, where we innovate at the intersection of data mining and human-computer interaction (HCI) to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+
+- type: experience
+  date: Spring 2017
+  org: Georgia Institute of Technology
+  role: Research Experiences for Undergraduates (REU), School of Interactive Computing
+  location: Atlanta, GA
+  detail_primary:
+    - "Mentor: Mark Guzdial"
+  detail_secondary:
+    - "Member of the Contextualized Support for Learning Lab, where we develop interactive technologies for K-12 Computer Science education."
+
+#------------------------------------
+# Publications
+#------------------------------------
+
+- type: section
+  name: Publications
+
+- type: publication
+  date: KDD'18
+  title: "Shield: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"
+  authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
+  detail: "Track: Applied Data Science <b>Audience Appreciation Award Runner Up</b>"
+
+- type: publication
+  date: KDD'18
+  title: "Compression to the Rescue: Defending from Adversarial Attacks Across Modalities"
+  authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
+  detail: "Track: Project Showcase"
+
+#------------------------------------
+# Ongoing Projects
+#------------------------------------
+
+- type: section
+  name: Ongoing Projects
+
+- type: general
+  date: Fall 2017 - Present
+  title_primary: Argo Graph
+  title_secondary: Large-scale Graph Visualization Tool
+  detail_secondary: Developing the next cross-platform interactive graph visualization tool capable of handling million-edge scale network data using latest web technology.
+
+- type: general
+  date: Spring 2018 - Present
+  title_primary: mHealth Visual Discovery Dashboard
+  title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
+  detail_secondary: Developing a predictive visualization dashboard for timeseries data collected from mobile devices.
+
+#------------------------------------
+# Projects
+#------------------------------------
+
+- type: section
+  name: Past Projects
+
+- type: general
+  date: Spring 2018
+  title_primary: Smart Meter Data Portal
+  title_secondary: Part of NSF Smart Grid Data Analytics Spoke Project
+  detail_secondary: Designed and developed a web-based data-sharing platform for energy researchers using Smart Grid.
+
+- type: general
+  date: Spring 2017
+  title_primary: Runestone Interactive Ebook
+  title_secondary: Help students learn CS interactively
+  detail_secondary: Improved an open-source K-12 interactive ebook platform for teaching computer science used by 500+ institutions around the world.
+
+
+#------------------------------------
+# Leadership
+#------------------------------------
+
+- type: section
+  name: Activities
+
+- type: experience
+  date: Spring 2017 - Present
+  org: HackGT
+  role: Organizing Largest College Hackathon in the Southeast (1000+ Students)
+  location: Atlanta, GA
+  detail_primary:
+  detail_secondary:
+    - "Member of the HackGT organization where we organize various hackathons and workshops at Georgia Tech. I build open source software for hackathon organizers worldwide, while teaching computer science and web development through events for beginners and high school students in underrepresented communities."
+
+
+#------------------------------------
+# Open Source
+#------------------------------------
+
+# - type: section
+#   name: Personal and Open Source Projects
+
+# - type: general
+#   title_primary: HackGT/SponsorshipPortal
+#   detail_secondary: An intelligent open source web portal for sponsors of hackathons to search resumes of participants and to interact with hiring candidates
+
+
+#------------------------------------
+# Skills
+#------------------------------------
+
+- type: section
+  name: Skills
+
+- type: skill-items
+  category: Languages
+  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, PHP, SQL
+
+- type: skill-items
+  category: Web
+  items: React, Redux, Node/Express, Electron, Flask, CodeIgniter, HTML, CSS, JQuery
+
+- type: skill-items
+  category: Mobile
+  items: Android, Cordova, iOS/ARKit
+
+- type: skill-items
+  category: Machine Learning
+  items: Scikit-Learn, Tensorflow
+
+- type: skill-items
+  category: Data Visualization
+  items: D3, matplotlib
+
+- type: skill-items
+  category: Miscellaneous
+  items: Docker, Bash, Gradle, Travis CI
