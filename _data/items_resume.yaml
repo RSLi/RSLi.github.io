@@ -92,36 +92,36 @@ create automated sequences that generate various analysis reports; estimated to 
 - type: section
   name: Ongoing Projects
 
-- type: general
-  date: Fall 2017 - Present
-  title_primary: Argo Graph
-  title_secondary: Large-scale Graph Visualization Tool
-  detail_secondary: Developing the next cross-platform interactive graph visualization tool capable of handling million-edge scale network data using latest web technology.
-
-- type: general
+- type: project-2-line
   date: Spring 2018 - Present
   title_primary: mHealth Visual Discovery Dashboard
   title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
-  detail_secondary: Developing a predictive visualization dashboard for timeseries data collected from mobile devices.
+  detail: Developing a predictive visualization dashboard for timeseries data collected from mobile devices.
+
+- type: project-2-line
+  date: Fall 2017 - Present
+  title_primary: Argo Graph
+  title_secondary: Large-scale Graph Visualization Tool
+  detail: Developing the next cross-platform interactive graph visualization tool capable of handling million-edge scale network data using latest web technology.
 
 #------------------------------------
 # Projects
 #------------------------------------
 
 - type: section
-  name: Past Projects
+  name: Selected Past Projects
 
-- type: general
+- type: project-2-line
   date: Spring 2018
   title_primary: Smart Meter Data Portal
   title_secondary: Part of NSF Smart Grid Data Analytics Spoke Project
-  detail_secondary: Designed and developed a web-based data-sharing platform for energy researchers using Smart Grid.
+  detail: Designed and developed a web-based data-sharing platform for energy researchers using Smart Grid.
 
-- type: general
+- type: project-2-line
   date: Spring 2017
   title_primary: Runestone Interactive Ebook
   title_secondary: Help students learn CS interactively
-  detail_secondary: Improved an open-source K-12 interactive ebook platform for teaching computer science used by 500+ institutions around the world.
+  detail: Improved an open-source K-12 interactive ebook platform for teaching computer science used by 500+ institutions around the world.
 
 
 #------------------------------------
@@ -129,7 +129,7 @@ create automated sequences that generate various analysis reports; estimated to 
 #------------------------------------
 
 - type: section
-  name: Activities
+  name: Selected Activities
 
 - type: experience
   date: Spring 2017 - Present
@@ -142,16 +142,26 @@ create automated sequences that generate various analysis reports; estimated to 
 
 
 #------------------------------------
-# Open Source
+# Personal Projects
 #------------------------------------
 
-# - type: section
-#   name: Personal and Open Source Projects
+- type: section
+  name: Selected Personal and Open Source Projects
 
-# - type: general
-#   title_primary: HackGT/SponsorshipPortal
-#   detail_secondary: An intelligent open source web portal for sponsors of hackathons to search resumes of participants and to interact with hiring candidates
+- type: project-1-line
+  date: "Fall 2017"
+  title: HackGT/SponsorshipPortal
+  detail: Intelligent web portal for hackathon sponsors to search resumes of participants
 
+- type: project-1-line
+  date: "Spring 2017"
+  title: Beginners-Cordova-Tutorial
+  detail: Website teaching Apache Cordova development to beginners
+
+- type: project-1-line
+  date: "Spring 2017"
+  title: V-Plate
+  detail: Voice-controlled food delivery robot built with RaspberryPi 3 with an Android client
 
 #------------------------------------
 # Skills
@@ -162,7 +172,7 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: skill-items
   category: Languages
-  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, PHP, SQL
+  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, PHP, SQL, Bash
 
 - type: skill-items
   category: Web
@@ -173,13 +183,9 @@ create automated sequences that generate various analysis reports; estimated to 
   items: Android, Cordova, iOS/ARKit
 
 - type: skill-items
-  category: Machine Learning
-  items: Scikit-Learn, Tensorflow
-
-- type: skill-items
-  category: Data Visualization
-  items: D3, matplotlib
+  category: Data Science
+  items: Machine Learning (scikit-Learn, Tensorflow), Data Visualization (D3, matplotlib)
 
 - type: skill-items
   category: Miscellaneous
-  items: Docker, Bash, Gradle, Travis CI
+  items: Infrastructure (Docker, Vagrant), Build Systems (Gradle, npm, Webpack, Travis CI)

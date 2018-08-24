@@ -142,16 +142,26 @@ create automated sequences that generate various analysis reports; estimated to 
 
 
 #------------------------------------
-# Open Source
+# Personal Projects
 #------------------------------------
 
-# - type: section
-#   name: Personal and Open Source Projects
+- type: section
+  name: Personal and Open Source Projects
 
-# - type: general
-#   title_primary: HackGT/SponsorshipPortal
-#   detail_secondary: An intelligent open source web portal for sponsors of hackathons to search resumes of participants and to interact with hiring candidates
+- type: project-1-line
+  date: "Fall 2017"
+  title: HackGT/SponsorshipPortal
+  detail: Intelligent web portal for hackathon sponsors to search resumes of participants
 
+- type: project-1-line
+  date: "Spring 2017"
+  title: Beginners-Cordova-Tutorial
+  detail: Website teaching Apache Cordova development to beginners
+
+- type: project-1-line
+  date: "Spring 2017"
+  title: V-Plate
+  detail: Voice-controlled food delivery robot built with RaspberryPi 3 with an Android client
 
 #------------------------------------
 # Skills
@@ -162,7 +172,7 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: skill-items
   category: Languages
-  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, PHP, SQL
+  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, PHP, SQL, Bash
 
 - type: skill-items
   category: Web
@@ -173,13 +183,9 @@ create automated sequences that generate various analysis reports; estimated to 
   items: Android, Cordova, iOS/ARKit
 
 - type: skill-items
-  category: Machine Learning
-  items: Scikit-Learn, Tensorflow
-
-- type: skill-items
-  category: Data Visualization
-  items: D3, matplotlib
+  category: Data Science
+  items: Machine Learning (scikit-Learn, Tensorflow), Data Visualization (D3, matplotlib)
 
 - type: skill-items
   category: Miscellaneous
-  items: Docker, Bash, Gradle, Travis CI
+  items: Infrastructure (Docker, Vagrant), Build Systems (Gradle, npm, Travis CI)
