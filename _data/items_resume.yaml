@@ -21,28 +21,11 @@
     - "Expected Graduation: May 2020"
 
 #------------------------------------
-# Industry Experience
+# Experience
 #------------------------------------
 
 - type: section
-  name: Industry Experience
-
-- type: experience
-  date: Summer 2017
-  org: Panasonic Automotive Systems
-  role: Software Engineering Intern
-  location: Peachtree City, GA
-  detail_primary:
-  detail_secondary:
-    - "Developed an extensible visualization tool in React/Redux/Node/d3 that enables engineers to
-create automated sequences that generate various analysis reports; estimated to reduce 30% of testing time."
-
-#------------------------------------
-# Academic Research Experience
-#------------------------------------
-
-- type: section
-  name: Academic Research Experience
+  name: Experience
 
 - type: experience
   date: Fall 2017 - Present
@@ -53,6 +36,16 @@ create automated sequences that generate various analysis reports; estimated to 
     - "Advisor: Polo Chau"
   detail_secondary:
     - "Member of the Polo Club of Data Science, where we innovate at the intersection of data mining and human-computer interaction (HCI) to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+
+- type: experience
+  date: Summer 2017
+  org: Panasonic Automotive Systems
+  role: Software Engineering Intern
+  location: Peachtree City, GA
+  detail_primary:
+  detail_secondary:
+    - "Developed an extensible visualization tool in React/Redux/Node/d3 that enables engineers to
+create automated sequences that generate various analysis reports; estimated to reduce 30% of testing time."
 
 - type: experience
   date: Spring 2017
@@ -86,11 +79,11 @@ create automated sequences that generate various analysis reports; estimated to 
   detail: "Track: Project Showcase"
 
 #------------------------------------
-# Ongoing Projects
+# Projects
 #------------------------------------
 
 - type: section
-  name: Ongoing Projects
+  name: Selected Projects
 
 - type: project-2-line
   date: Spring 2018 - Present
@@ -103,13 +96,6 @@ create automated sequences that generate various analysis reports; estimated to 
   title_primary: Argo Graph
   title_secondary: Large-scale Graph Visualization Tool
   detail: Developing the next cross-platform interactive graph visualization tool capable of handling million-edge scale network data using latest web technology.
-
-#------------------------------------
-# Projects
-#------------------------------------
-
-- type: section
-  name: Selected Past Projects
 
 - type: project-2-line
   date: Spring 2018
