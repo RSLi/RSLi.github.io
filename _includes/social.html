@@ -1,4 +1,12 @@
-<a href="http://siweili.org"><b>Web:</b> siweili.org</a><br/>
-<a href="https://github.com/RSLi"><b>Github:</b> RSLi</a><br/>
-<a href="mailto:robertsiweili@gatech.edu"><b>Email:</b> robertsiweili@gatech.edu</a><br />
+<style>
+@media screen {
+	.only-for-print {
+		display: none !important;
+	}
+}
+</style>
+<a href="{{ site.author.website }}"><b>Web:</b> siweili.org</a><br/>
+<a href="https://github.com/{{ site.author.github }}"><b>Github:</b> {{ site.author.github }}</a><br/>
+<a href="mailto:{{ site.author.email }}"><b>Email:</b> {{ site.author.email }}</a><br />
+<a href="#" class="only-for-print"><b>Phone:</b> {{ site.author.phone }}</a>
 <a href="{{ site.baseurl }}/download/resume.pdf" class="cv-no-print"><b>Download 1-Page Resume</b></a>

@@ -34,7 +34,7 @@
   location: Peachtree City, GA
   detail_primary:
   detail_secondary:
-    - "Developed an extensible visualization tool in React/Redux/Node/d3 that enables engineers to
+    - "Developed an extensible visualization tool in <b>Java/Electron/React/d3</b> that enables engineers to
 create automated sequences that generate various analysis reports; estimated to reduce 30% of testing time."
 
 #------------------------------------

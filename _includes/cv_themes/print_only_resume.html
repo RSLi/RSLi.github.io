@@ -38,7 +38,10 @@
     <main>
         <article id="resume" class="page">
             <div class="resume-container" style="display:flex; justify-content: space-between;">
-                <div style="font-size: 35px; font-weight: bold;">{{ site.author.name | smartify }}</div>
+                <div>
+                    <div style="font-size: 35px; font-weight: bold;">{{ site.author.name | smartify }}</div>
+                    <div>{{ site.author.objective }}</div>
+                </div>
                 <div>{% include social.html %}</div>
             </div>
             {% include item_resume.html list=site.data.items_resume %}

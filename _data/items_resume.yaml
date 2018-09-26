@@ -13,12 +13,12 @@
   name: Education
 
 - type: experience
-  date: Fall 2016 - Present
+  date: Fall 2016 - (Expected) Spring 2020
   org: Georgia Institute of Technology
-  role: "B.S. in Computer Science (GPA: 3.88)"
+  role: "B.S. in Computer Science (GPA: 3.88/4.0)"
   location: Atlanta, GA
-  detail_secondary:
-    - "Expected Graduation: May 2020"
+  # detail_secondary:
+  #   - "Expected Graduation: May 2020"
 
 #------------------------------------
 # Experience
