@@ -89,13 +89,13 @@ create automated sequences that generate various analysis reports; estimated to 
   date: Fall 2017 - Present
   title_primary: Argo Graph
   title_secondary: Large-scale Graph Visualization Tool
-  detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using latest web technology.
+  detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using latest web technology. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
 
 - type: project-2-line
   date: Spring - Fall 2018
   title_primary: mHealth Visual Discovery Dashboard
   title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
-  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices. Integrated into NIH MD2K's Cerebral Cortex Data Analytics Platform.
+  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices. Integrated into Cerebral Cortex Data Analytics Platform, a <b>$11.8M project by NIH MD2K Center of Excellence</b>.
 
 - type: project-2-line
   date: Spring 2018
