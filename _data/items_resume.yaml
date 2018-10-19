@@ -17,8 +17,6 @@
   org: Georgia Institute of Technology
   role: "B.S. in Computer Science (GPA: 3.88/4.0)"
   location: Atlanta, GA
-  # detail_secondary:
-  #   - "Expected Graduation: May 2020"
 
 #------------------------------------
 # Experience
@@ -35,7 +33,7 @@
   detail_primary:
     - "Advisor: Prof. Duen Horng (Polo) Chau"
   detail_secondary:
-    - "Member of the Polo Club of Data Science, where I innovate at the intersection of <b>data mining and human-computer interaction (HCI)</b> to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+    - "Member of the Polo Club of Data Science, where I innovate at the intersection of <b>data science and human-computer interaction (HCI)</b> to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
 
 - type: experience
   date: Summer 2017
@@ -55,7 +53,7 @@ create automated sequences that generate various analysis reports; estimated to 
   detail_primary:
     - "Mentor: Prof. Mark Guzdial"
   detail_secondary:
-    - "Improved Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
+    - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
 
 #------------------------------------
 # Publications
@@ -89,19 +87,19 @@ create automated sequences that generate various analysis reports; estimated to 
   date: Fall 2017 - Present
   title_primary: Argo Graph
   title_secondary: Large-scale Graph Visualization Tool
-  detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using latest web technology. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
+  detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using WebGL, Node, and SQLite. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
 
 - type: project-2-line
   date: Spring - Fall 2018
   title_primary: mHealth Visual Discovery Dashboard
   title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
-  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices. Integrated into Cerebral Cortex Data Analytics Platform, a <b>$11.8M project by NIH MD2K Center of Excellence</b>.
+  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform, a <b>$11.8M project by NIH MD2K Center of Excellence</b>.
 
 - type: project-2-line
   date: Spring 2018
   title_primary: Smart Meter Data Portal
   title_secondary: Part of NSF Smart Grid Data Analytics Spoke Project
-  detail: Designed and developed a web-based data-sharing platform for energy researchers using Smart Grid.
+  detail: Designed and developed a searchable and freely hostable web-based data-sharing platform leveraging Github and Travis CI, for energy researchers using Smart Grid.
 
 #------------------------------------
 # Leadership
@@ -130,12 +128,12 @@ create automated sequences that generate various analysis reports; estimated to 
 - type: project-1-line
   date: "Fall 2017 - Fall 2018"
   title: HackGT/SponsorshipPortal
-  detail: Intelligent web portal for hackathon sponsors to search resumes of participants
+  detail: Intelligent portal for hackathon sponsors to search resumes of participants
 
 - type: project-1-line
   date: "Spring 2017"
   title: Beginners-Cordova-Tutorial
-  detail: Website teaching Apache Cordova development to beginners
+  detail: Website teaching Apache Cordova development to beginners, written in Sphinx
 
 - type: project-1-line
   date: "Spring 2017"
@@ -151,11 +149,11 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: skill-items
   category: Languages
-  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, SQL, Bash
+  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C, C++, SQL, Bash, PHP, Go
 
 - type: skill-items
   category: Web
-  items: React, Redux, Node/Express, Electron, Flask, CodeIgniter, HTML, CSS, JQuery
+  items: React, Redux, Node/Express, Electron, Django, Flask, CodeIgniter, HTML, CSS, JQuery
 
 - type: skill-items
   category: Mobile
