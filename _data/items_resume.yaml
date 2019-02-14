@@ -26,6 +26,14 @@
   name: Experience
 
 - type: experience
+  date: Summer 2019
+  org: Google
+  role: Software Engineering Intern, Infrastructure Security and Privacy
+  location: San Francisco, CA
+  detail_secondary:
+    - "Will be joining Google this summer."
+
+- type: experience
   date: Fall 2017 - Present
   org: Georgia Institute of Technology
   role: Undergraduate Research Assistant, School of Computational Science and Engineering
@@ -45,15 +53,15 @@
     - "Developed an extensible analytics tool in <b>Java/Electron/React/d3</b> that enables engineers to
 create automated sequences that generate various analysis reports; estimated to <b>reduce 30% of testing time</b>."
 
-- type: experience
-  date: Spring 2017
-  org: Georgia Institute of Technology
-  role: Research Experiences for Undergraduates (REU), School of Interactive Computing
-  location: Atlanta, GA
-  detail_primary:
-    - "Mentor: Prof. Mark Guzdial"
-  detail_secondary:
-    - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
+# - type: experience
+#   date: Spring 2017
+#   org: Georgia Institute of Technology
+#   role: Research Experiences for Undergraduates (REU), School of Interactive Computing
+#   location: Atlanta, GA
+#   detail_primary:
+#     - "Mentor: Prof. Mark Guzdial"
+#   detail_secondary:
+#     - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
 
 #------------------------------------
 # Publications

@@ -25,7 +25,7 @@ sass:
 author:
   name:              Siwei "Robert" Li
   self_intro:        "Georgia Tech 3rd year Undergraduate Student majoring in Computer Science"
-  objective:         "Looking for Summer 2019 Software Engineering Internship" # (Optional) Only visible for resume
+  objective:         "" # (Optional) Only visible for resume
   phone:             "509-994-5998"
   email:             "robertsiweili@gatech.edu"
   website:           http://siweili.org
