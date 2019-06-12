@@ -24,10 +24,10 @@ sass:
 # Your Contact
 author:
   name:              Siwei "Robert" Li
-  self_intro:        "Georgia Tech 3rd year Undergraduate Student majoring in Computer Science"
+  self_intro:        ""
   objective:         "" # (Optional) Only visible for resume
   phone:             "509-994-5998"
-  email:             "robertsiweili@gatech.edu"
+  email:             "robertsli1998@gmail.com"
   website:           http://siweili.org
   twitter:
   github:            RSLi
