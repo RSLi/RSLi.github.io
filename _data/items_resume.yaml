@@ -31,7 +31,7 @@
   role: Software Engineering Intern, Tech Infrastructure Security and Privacy
   location: San Francisco, CA
   detail_secondary:
-    - "Building a system that adds explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
+    - "Built an RPC service and a web application adding explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
 
 - type: experience
   date: Fall 2017 - Present
@@ -171,7 +171,7 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: skill-items
   category: Languages
-  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C++, SQL, Bash, PHP, Go
+  items: Java, Python, JavaScript (ES6+), TypeScript, Kotlin, Swift, C++, SQL, Bash, PHP, Go
 
 - type: skill-items
   category: Web

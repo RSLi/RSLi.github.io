@@ -31,7 +31,7 @@
   role: Software Engineering Intern, Tech Infrastructure Security and Privacy
   location: San Francisco, CA
   detail_secondary:
-    - "Building a system that adds explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
+    - "Built an RPC service and a web application adding explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
 
 - type: experience
   date: Fall 2017 - Present
@@ -68,27 +68,28 @@ create automated sequences that generate various analysis reports; estimated to 
 #------------------------------------
 
 - type: section
-  name: Publications and Demos
+  name: Publications
 
 - type: publication
   date: KDD'19
   title: "MLsploit: A Framework for Interactive Experimentation with Adversarial Machine Learning Research"
   authors: Nilaksh Das, <b>Siwei Li</b>, Chanil Jeon, Jinho Jung, Shang-Tse Chen, Carter Yagemann, Evan Downing, Haekyu Park, Evan Yang, Li Chen, Michael Kounavis, Ravi Sahita, David Durham, Scott Buck, Polo Chau, Taesoo Kim and Wenke Lee
   venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 4, 2019. Anchorage, Alaska USA.
-  detail: "Project Showcase. Oral presentation."
+  detail: "Project Showcase, Oral presentation"
 
 - type: publication
   date: IDC'19
   title: "Mixed Reality for Learning Programming"
   authors: Joonyoung Kim, Sudeep Agarwal, Kristina Marotta, <b>Siwei Li</b>, Jonathan Leo, Duen Horng (Polo) Chau 
   venue: 18th ACM Conference on Interaction Design and Children, Jun. 2019.
+  detail: "Poster, <b>Honorable Mention</b>"
 
 - type: publication
   date: KDD'18
   title: "Shield: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"
   authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
   venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
-  detail: "Track: Applied Data Science <b>Audience Appreciation Award Runner Up</b>"
+  detail: "Track: Applied Data Science, <b>Audience Appreciation Award Runner Up</b>"
 
 - type: publication
   date: KDD'18
@@ -106,15 +107,15 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: project-2-line
   date: Fall 2018 - Spring 2019
-  title_primary: Intel MLSploit
+  title_primary: Intel MLsploit
   title_secondary: Adversarial Machine Learning Research Platform
-  detail: Developed an extensible research platform for security and ML researchers to interactively construct transformation and evaluation pipelines. Demoed at Blackhat Asia'19.
+  detail: Developed an extensible research platform for security and ML researchers to interactively construct transformation and evaluation pipelines.
 
 - type: project-2-line
   date: Spring - Fall 2018
   title_primary: NIH mHealth Visual Discovery Dashboard
   title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
-  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform, a $11.8M project by <b>NIH MD2K Center of Excellence</b>.
+  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform by <b>NIH MD2K Center of Excellence</b>.
 
 - type: project-2-line
   date: Fall 2017 - Present
@@ -176,6 +177,20 @@ create automated sequences that generate various analysis reports; estimated to 
     - "Hold hackathons and workshops; make open source projects for event organizers; mentor beginners and high school students."
 
 #------------------------------------
+# Awards/Scholarships
+#------------------------------------
+
+- type: section
+  name: Awards/Scholarships
+
+- type: project-2-line
+  date: "Fall 2019"
+  title_primary: President's Undergraduate Research Award (PURA)
+  title_secondary: Georgia Institute of Technology
+  detail: PURA Salary Award for faculty research, $1500
+  
+
+#------------------------------------
 # Skills
 #------------------------------------
 
@@ -184,7 +199,7 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: skill-items
   category: Languages
-  items: Java, Python, JavaScript (ES6+), Kotlin, Swift, C++, SQL, Bash, PHP, Go
+  items: Java, Python, JavaScript (ES6+), TypeScript, Kotlin, Swift, C++, SQL, Bash, PHP, Go
 
 - type: skill-items
   category: Web

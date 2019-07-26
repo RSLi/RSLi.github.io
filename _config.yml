@@ -14,7 +14,7 @@ ga_tracking_code:    UA-116657822-1
 # - This is different from Jekyll Theme
 # - This selects a layout in the _includes/cv_themes directory for your CV
 # - You can select from the existing themes or easily create new ones
-cv_theme:            gradient_simple.html
+cv_theme:            print_only_cv.html
 resume_theme:        print_only_resume.html
 
 sass:
@@ -25,7 +25,7 @@ sass:
 author:
   name:              Siwei "Robert" Li
   self_intro:        ""
-  objective:         "" # (Optional) Only visible for resume
+  objective:         ""
   phone:             "509-994-5998"
   email:             "robertsli1998@gmail.com"
   website:           http://siweili.org
