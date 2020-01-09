@@ -15,7 +15,7 @@
 - type: experience
   date: 2016 - (Expected) 2020
   org: Georgia Institute of Technology
-  role: "B.S. in Computer Science (GPA: 3.88/4.0)"
+  role: "B.S. in Computer Science (GPA: 3.87/4.0)"
   location: Atlanta, GA
 
 #------------------------------------
@@ -28,7 +28,7 @@
 - type: experience
   date: Summer 2019
   org: Google
-  role: Software Engineering Intern, Tech Infrastructure Security and Privacy
+  role: Software Engineering Intern
   location: San Francisco, CA
   detail_secondary:
     - "Built an RPC service and a web application adding explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
@@ -145,7 +145,7 @@ create automated sequences that generate various analysis reports; estimated to 
   name: On-campus Activities
 
 - type: experience
-  date: Fall 2018 - Present
+  date: Fall 2018 - Fall 2019
   org: "VIP Project: Health Informatics on FHIR"
   role: Development Team Lead
   location: Atlanta, GA
@@ -154,7 +154,7 @@ create automated sequences that generate various analysis reports; estimated to 
     - "Develop FHIR applications to improve Emergency Room and Triage efficiency. Currently working with Grady Memorial Hospital, the fifth-largest public hospital in the US, with one of the busiest ER in the country."
 
 - type: experience
-  date: Spring 2017 - Present
+  date: Spring 2017 - Fall 2019
   org: HackGT Organizers Team
   role: Organizing <b>Largest</b> College Hackathon in the Southeast <b>(1000+ Students)</b>
   location: Atlanta, GA

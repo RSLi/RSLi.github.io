@@ -15,7 +15,7 @@
 - type: experience
   date: 2016 - (Expected) 2020
   org: Georgia Institute of Technology
-  role: "B.S. in Computer Science (GPA: 3.88/4.0)"
+  role: "B.S. in Computer Science (GPA: 3.87/4.0)"
   location: Atlanta, GA
 
 #------------------------------------
@@ -26,15 +26,23 @@
   name: Experience
 
 - type: experience
+  date: Starting 2020
+  org: Google
+  role: Software Engineer II (L3)
+  location: Mountain View, CA
+  detail_secondary:
+    - "Joining Google starting May 2020."
+
+- type: experience
   date: Summer 2019
   org: Google
-  role: Software Engineering Intern, Tech Infrastructure Security and Privacy
+  role: Software Engineering Intern
   location: San Francisco, CA
   detail_secondary:
     - "Built an RPC service and a web application adding explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
 
 - type: experience
-  date: Fall 2017 - Present
+  date: Fall 2017 - Spring 2020
   org: Georgia Institute of Technology
   role: Undergraduate Research Assistant, School of Computational Science and Engineering
   location: Atlanta, GA
@@ -118,7 +126,7 @@ create automated sequences that generate various analysis reports; estimated to 
   detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform by <b>NIH MD2K Center of Excellence</b>.
 
 - type: project-2-line
-  date: Fall 2017 - Present
+  date: Fall 2017 - Spring 2020
   title_primary: Argo Graph
   title_secondary: Large-scale Graph Visualization Tool
   detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using WebGL, Node, and SQLite. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
@@ -159,7 +167,7 @@ create automated sequences that generate various analysis reports; estimated to 
   name: On-campus Activities
 
 - type: experience
-  date: Fall 2018 - Present
+  date: Fall 2018 - Fall 2019
   org: "VIP Project: Health Informatics on FHIR"
   role: Development Team Lead
   location: Atlanta, GA
@@ -168,7 +176,7 @@ create automated sequences that generate various analysis reports; estimated to 
     - "Develop FHIR applications to improve Emergency Room and Triage efficiency. Currently working with Grady Memorial Hospital, the fifth-largest public hospital in the US, with one of the busiest ER in the country."
 
 - type: experience
-  date: Spring 2017 - Present
+  date: Spring 2017 - Fall 2019
   org: HackGT Organizers Team
   role: Organizing <b>Largest</b> College Hackathon in the Southeast <b>(1000+ Students)</b>
   location: Atlanta, GA
