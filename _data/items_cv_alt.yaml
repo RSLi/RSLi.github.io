@@ -1,0 +1,148 @@
+#------------------------------------
+# Instructions
+# 
+# 
+#------------------------------------
+
+
+#------------------------------------
+# Education
+#------------------------------------
+
+- type: section
+  name: Education
+
+- type: experience
+  date: 2016 - 2020
+  org: Georgia Institute of Technology
+  role: "B.S. in Computer Science"
+  location: Atlanta, GA
+
+#------------------------------------
+# Experience
+#------------------------------------
+
+- type: section
+  name: Experience
+
+# - type: experience
+#   date: Starting 2020
+#   org: Google
+#   role: Software Engineer II (L3)
+#   location: Mountain View, CA
+#   detail_secondary:
+#     - "Joining Google starting June."
+
+- type: experience
+  date: Summer 2019
+  org: Google
+  role: Software Engineering Intern
+  location: San Francisco, CA
+  detail_secondary:
+    - "Built an RPC service and a web application adding explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
+
+- type: experience
+  date: Fall 2017 - Spring 2020
+  org: Georgia Institute of Technology
+  role: Undergraduate Research Assistant, School of Computational Science and Engineering
+  location: Atlanta, GA
+  detail_primary:
+    - "Advisor: Prof. Duen Horng (Polo) Chau"
+  detail_secondary:
+    - "Member of the Polo Club of Data Science, where I innovate at the intersection of <b>data science and human-computer interaction (HCI)</b> to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+
+- type: experience
+  date: Summer 2017
+  org: Panasonic Automotive Systems
+  role: Software Engineering Intern
+  location: Peachtree City, GA
+  detail_primary:
+  detail_secondary:
+    - "Developed an extensible analytics tool in <b>Java/Electron/React/d3</b> that enables engineers to
+create automated sequences that generate various analysis reports; estimated to <b>reduce 30% of testing time</b>."
+
+- type: experience
+  date: Spring 2017
+  org: Georgia Institute of Technology
+  role: Undergraduate Researcher (REU), School of Interactive Computing
+  location: Atlanta, GA
+  detail_primary:
+    - "Mentor: Prof. Mark Guzdial"
+  detail_secondary:
+    - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
+
+#------------------------------------
+# Publications
+#------------------------------------
+
+- type: section
+  name: Publications
+
+- type: publication
+  date: KDD'19
+  title: "MLsploit: A Framework for Interactive Experimentation with Adversarial Machine Learning Research"
+  authors: Nilaksh Das, <b>Siwei Li</b>, Chanil Jeon, Jinho Jung, Shang-Tse Chen, Carter Yagemann, Evan Downing, Haekyu Park, Evan Yang, Li Chen, Michael Kounavis, Ravi Sahita, David Durham, Scott Buck, Polo Chau, Taesoo Kim and Wenke Lee
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 4, 2019. Anchorage, Alaska USA.
+  detail: "Project Showcase, Oral presentation"
+
+- type: publication
+  date: IDC'19
+  title: "Mixed Reality for Learning Programming"
+  authors: Joonyoung Kim, Sudeep Agarwal, Kristina Marotta, <b>Siwei Li</b>, Jonathan Leo, Duen Horng (Polo) Chau 
+  venue: 18th ACM Conference on Interaction Design and Children, Jun. 2019.
+  detail: "Poster, <b>Honorable Mention</b>"
+
+- type: publication
+  date: KDD'18
+  title: "Shield: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"
+  authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
+  detail: "Track: Applied Data Science, <b>Audience Appreciation Award Runner Up</b>"
+
+- type: publication
+  date: KDD'18
+  title: "Compression to the Rescue: Defending from Adversarial Attacks Across Modalities"
+  authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
+  detail: "Project Showcase"
+
+#------------------------------------
+# Awards/Scholarships
+#------------------------------------
+
+- type: section
+  name: Awards/Scholarships
+
+- type: project-2-line
+  date: "Fall 2019"
+  title_primary: President's Undergraduate Research Award (PURA)
+  title_secondary: Georgia Institute of Technology
+  detail: PURA Salary Award for faculty research, $1500
+  
+
+#------------------------------------
+# Skills
+#------------------------------------
+
+- type: section
+  name: Selected Skills
+
+- type: skill-items
+  category: Languages
+  items: Java, Python, JavaScript (ES6+), TypeScript, Kotlin, Swift, C++, SQL, Bash, PHP, Go
+
+- type: skill-items
+  category: Web
+  items: React, Redux, Node/Express, Electron, Django, Flask, CodeIgniter, HTML, CSS, JQuery
+
+- type: skill-items
+  category: Mobile
+  items: Android, Cordova, iOS/ARKit
+
+- type: skill-items
+  category: Data Science
+  items: Machine Learning (scikit-Learn, Tensorflow, numpy, pandas), Data Visualization (D3, matplotlib)
+
+- type: skill-items
+  category: Miscellaneous
+  items: Infrastructure (Docker, Kubernetes, Vagrant), Build Systems (Gradle, Webpack, Travis CI)
