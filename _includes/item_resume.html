@@ -1,0 +1,90 @@
+{% for item in include.list %}
+{% case item.type %}
+
+{% when 'section' %}
+<h3 class="resume-section-title">{{ item.name }}</h3>
+
+{% when 'general' %}
+<div class="resume-item">
+    <div class="resume-title-container">
+        <div>{% if item.title_primary and item.title_primary != "" %}<strong>{{ item.title_primary }}</strong>{% endif %}{% if item.location and item.location != "" %}, {% endif %} {{ item.location | default: '' }}</div>
+        <div><span class="resume-right-date">{{ item.date | default: '' }}</span></div>
+    </div>
+    {% if item.title_secondary and item.title_secondary != "" %}<i> {{ item.title_secondary }} </i><br />{% endif %}
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="resume-description">{{ line }}</span><br />
+    {% endfor %}
+</div>
+
+{% when 'experience' %}
+<div class="resume-item">
+    <div class="resume-title-container">
+        <div>{% if item.org and item.org != "" %}<strong>{{ item.org }}</strong>{% endif %}{% if item.location and item.location != "" %}, {% endif %} {{ item.location | default: '' }}</div>
+        <div><span class="resume-right-date">{{ item.date | default: '' }}</span></div>
+    </div>
+    <i> {{ item.role }} </i><br />
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="resume-description">{{ line }}</span><br />
+    {% endfor %}
+</div>
+
+{% when 'publication' %}
+<div class="resume-item">
+    <div class="resume-title-container">
+        <div><strong>{{ item.title }}</strong></div>
+        <div><span class="resume-right-date">{{ item.date | default: '' }}</span></div>
+    </div>
+    {{ item.authors }}<br />
+    <i> {{ item.venue }} </i><br />
+    {% for line in item.detail %}
+        <span class="resume-description">{{ line }}</span><br />
+    {% endfor %}
+</div>
+
+{% when 'project-2-line' %}
+<div class="resume-item">
+    <div class="resume-title-container">
+        <div>{% if item.title_primary and item.title_primary != "" %}<strong>{{ item.title_primary }}</strong>{% endif %}{% if item.title_secondary and item.title_secondary != "" %}, {% endif %} <i>{{ item.title_secondary | default: '' }}</i></div>
+        <div><span class="resume-right-date">{{ item.date | default: '' }}</span></div>
+    </div>
+    <span class="resume-description">{{ item.detail }}</span><br />
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="resume-description">{{ line }}</span><br />
+    {% endfor %}
+    
+        
+</div>
+
+{% when 'project-1-line' %}
+<div class="resume-project-1-line">
+    <div class="resume-title-container">
+        <div>{% if item.title and item.title != "" %}<strong>{{ item.title }}</strong>{% endif %}: {{ item.detail }}</div>
+        <div><span class="resume-right-date">{{ item.date | default: '' }}</span></div>
+    </div>
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="resume-description">{{ line }}</span><br />
+    {% endfor %}
+</div>
+
+
+{% when 'skill-items' %}
+<div class="resume-skill-item">
+    <b>{{ item.category }}</b>: <span class="resume-description">{{ item.items }}</span>
+</div>
+
+{% else %}
+<span style="color: red">ERROR: You are not using a valid type for this item</span>
+{% endcase %}
+{% endfor %}

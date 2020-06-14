@@ -1,0 +1,15 @@
+<div style="height: 30px"></div>
+
+<div class="container content">
+    <main>
+        <article id="cv" class="page">
+            <h1>{{ site.author.name | smartify }}</h1>
+            <div style="height: 50px"></div>
+            <p>{{ site.author.self_intro }}</p>
+            <div style="height: 50px"></div>
+            <div class="cv-container">{% include social.html %}</div>
+            <div style="height: 50px"></div>
+            {% include item.html list=site.data.items %}
+        </article>
+    </main>
+</div>

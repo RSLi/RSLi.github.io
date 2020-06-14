@@ -1,0 +1,77 @@
+{% for item in include.list %}
+{% case item.type %}
+
+{% when 'section' %}
+<h3 class="cv-section-title">{{ item.name }}</h3>
+
+{% when 'general' %}
+<p>
+    <span class="cv-left-date">{{ item.date | default: '' }}</span>{% if item.title_primary and item.title_primary != "" %}<strong>{{ item.title_primary }}</strong>{% endif %}{% if item.location and item.location != "" %}, {% endif %} {{ item.location | default: '' }}
+    {% if item.title_primary and item.title_primary != "" %}<br />{% endif %}
+    {% if item.title_secondary and item.title_secondary != "" %}<i> {{ item.title_secondary }} </i><br />{% endif %}
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="cv-description">{{ line }}</span><br />
+    {% endfor %}
+</p>
+
+{% when 'experience' %}
+<p>
+    <span class="cv-left-date">{{ item.date | default: '' }}</span><strong>{{ item.org }}</strong>{% if item.location and item.location != "" %}, {% endif %} {{ item.location | default: '' }}<br />
+    <i> {{ item.role }} </i><br />
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="cv-description">{{ line }}</span><br />
+    {% endfor %}
+</p>
+
+{% when 'publication' %}
+<p>
+    <span class="cv-left-date">{{ item.date | default: '' }}</span><strong>{{ item.title }}</strong><br />
+    {{ item.authors }}<br />
+    <i> {{ item.venue }} </i><br />
+    {% for line in item.detail %}
+        <span class="cv-description">{{ line }}</span><br />
+    {% endfor %}
+</p>
+
+{% when 'project-2-line' %}
+<p>
+    <span class="cv-left-date">{{ item.date | default: '' }}</span>{% if item.title_primary and item.title_primary != "" %}<strong>{{ item.title_primary }}</strong>{% endif %}{% if item.title_secondary and item.title_secondary != "" %}, {% endif %} <i>{{ item.title_secondary | default: '' }}</i><br />
+    <span class="cv-description">{{ item.detail }}</span><br />
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="cv-description">{{ line }}</span><br />
+    {% endfor %}
+    
+        
+</p>
+
+{% when 'project-1-line' %}
+<p class="cv-project-1-line">
+    <span class="cv-left-date">{{ item.date | default: '' }}</span>{% if item.title and item.title != "" %}<strong>{{ item.title }}</strong>{% endif %}:
+    {{ item.detail }}
+    {% for line in item.detail_primary %}
+        {{ line }} <br />
+    {% endfor %}
+    {% for line in item.detail_secondary %}
+        <span class="cv-description">{{ line }}</span><br />
+    {% endfor %}
+</p>
+
+
+{% when 'skill-items' %}
+<div class="cv-skill-item">
+    <span class="cv-left-date">{{ item.category | default: '' }}</span><span class="cv-description">{{ item.items }}</span>
+</div>
+
+{% else %}
+<span style="color: red">ERROR: You are not using a valid type for this item</span>
+{% endcase %}
+{% endfor %}

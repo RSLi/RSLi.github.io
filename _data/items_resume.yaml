@@ -1,0 +1,190 @@
+#------------------------------------
+# Instructions
+# 
+# 
+#------------------------------------
+
+
+#------------------------------------
+# Education
+#------------------------------------
+
+- type: section
+  name: Education
+
+- type: experience
+  date: 2016 - 2020
+  org: Georgia Institute of Technology
+  role: "B.S. in Computer Science (GPA: 3.88/4.0) Highest Honor"
+  location: Atlanta, GA
+
+#------------------------------------
+# Experience
+#------------------------------------
+
+- type: section
+  name: Experience
+
+- type: experience
+  date: Summer 2019
+  org: Google
+  role: Software Engineering Intern
+  location: San Francisco, CA
+  detail_secondary:
+    - "Built an RPC service and a web application adding explainability to a machine learning anomaly detection model in order to generate intuitive alerts for abnormal enterprise Google Doc access."
+
+- type: experience
+  date: Fall 2017 - Present
+  org: Georgia Institute of Technology
+  role: Undergraduate Research Assistant, School of Computational Science and Engineering
+  location: Atlanta, GA
+  detail_primary:
+    - "Advisor: Prof. Duen Horng (Polo) Chau"
+  detail_secondary:
+    - "Member of the Polo Club of Data Science, where I innovate at the intersection of <b>data science and human-computer interaction (HCI)</b> to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
+
+- type: experience
+  date: Summer 2017
+  org: Panasonic Automotive Systems
+  role: Software Engineering Intern
+  location: Peachtree City, GA
+  detail_primary:
+  detail_secondary:
+    - "Developed an extensible analytics tool in <b>Java/Electron/React/d3</b> that enables engineers to
+create automated sequences that generate various analysis reports; estimated to <b>reduce 30% of testing time</b>."
+
+# - type: experience
+#   date: Spring 2017
+#   org: Georgia Institute of Technology
+#   role: Research Experiences for Undergraduates (REU), School of Interactive Computing
+#   location: Atlanta, GA
+#   detail_primary:
+#     - "Mentor: Prof. Mark Guzdial"
+#   detail_secondary:
+#     - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
+
+#------------------------------------
+# Publications
+#------------------------------------
+
+- type: section
+  name: Selected Publications
+
+- type: publication
+  date: KDD'18
+  title: "Shield: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"
+  authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
+  detail: "Track: Applied Data Science <b>Audience Appreciation Award Runner Up</b>"
+
+# - type: publication
+#   date: KDD'18
+#   title: "Compression to the Rescue: Defending from Adversarial Attacks Across Modalities"
+#   authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
+#   venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
+#   detail: "Track: Project Showcase"
+
+#------------------------------------
+# Projects
+#------------------------------------
+
+- type: section
+  name: Selected Projects
+
+- type: project-2-line
+  date: Fall 2018 - Spring 2019
+  title_primary: Intel MLSploit
+  title_secondary: Adversarial Machine Learning Research Platform
+  detail: Developed an extensible research platform for security and ML researchers to interactively construct transformation and evaluation pipelines.
+
+- type: project-2-line
+  date: Spring - Fall 2018
+  title_primary: NIH mHealth Visual Discovery Dashboard
+  title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
+  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform, a $11.8M project by <b>NIH MD2K Center of Excellence</b>.
+
+- type: project-2-line
+  date: Fall 2017 - Present
+  title_primary: Argo Graph
+  title_secondary: Large-scale Graph Visualization Tool
+  detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using WebGL, Node, and SQLite. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
+
+
+#------------------------------------
+# Personal Projects
+#------------------------------------
+
+- type: section
+  name: Selected Personal and Open Source Projects
+
+- type: project-1-line
+  date: "Spring 2018"
+  title: NSF Smart Meter Data Portal
+  detail: Searchable Github-based data-sharing platform for energy researchers
+
+- type: project-1-line
+  date: "Fall 2017 - Fall 2018"
+  title: HackGT/SponsorshipPortal
+  detail: Intelligent portal for hackathon sponsors to search resumes of participants
+
+# - type: project-1-line
+#   date: "Spring 2017"
+#   title: Beginners-Cordova-Tutorial
+#   detail: Website teaching Apache Cordova development to beginners, written in Sphinx
+
+# - type: project-1-line
+#   date: "Spring 2017"
+#   title: V-Plate
+#   detail: Voice-controlled food delivery robot built with RaspberryPi 3 with an Android client
+
+#------------------------------------
+# Leadership
+#------------------------------------
+
+- type: section
+  name: On-campus Activities
+
+- type: experience
+  date: Fall 2018 - Fall 2019
+  org: "VIP Project: Health Informatics on FHIR"
+  role: Development Team Lead
+  location: Atlanta, GA
+  detail_primary:
+  detail_secondary:
+    - "Develop FHIR applications to improve Emergency Room and Triage efficiency. Currently working with Grady Memorial Hospital, the fifth-largest public hospital in the US, with one of the busiest ER in the country."
+
+- type: experience
+  date: Spring 2017 - Fall 2019
+  org: HackGT Organizers Team
+  role: Organizing <b>Largest</b> College Hackathon in the Southeast <b>(1000+ Students)</b>
+  location: Atlanta, GA
+  detail_primary:
+  detail_secondary:
+    - "Hold hackathons and workshops; make open source projects for event organizers; mentor beginners and high school students."
+
+#------------------------------------
+# Skills
+#------------------------------------
+
+- type: section
+  name: Selected Skills
+
+- type: skill-items
+  category: Languages
+  items: Java, Python, JavaScript (ES6+), TypeScript, Kotlin, Swift, C++, SQL, Bash, PHP, Go
+
+- type: skill-items
+  category: Web
+  items: React, Redux, Node/Express, Electron, Django, Flask, CodeIgniter, HTML, CSS, JQuery
+
+- type: skill-items
+  category: Mobile
+  items: Android, Cordova, iOS/ARKit
+
+- type: skill-items
+  category: Data Science
+  items: Machine Learning (scikit-Learn, Tensorflow, numpy, pandas), Data Visualization (D3, matplotlib)
+
+- type: skill-items
+  category: Miscellaneous
+  items: Infrastructure (Docker, Kubernetes, Vagrant), Build Systems (Gradle, Webpack, Travis CI)

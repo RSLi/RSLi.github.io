@@ -1,0 +1,158 @@
+// #resume h1,
+// #resume h2,
+// #resume h3,
+// #resume h4,
+// #resume h5,
+// #resume h6,
+// #resume p,
+// #resume blockquote,
+// #resume ul,
+// #resume ol,
+// #resume dl,
+// #resume table,
+// #resume time,
+// #resume .message,
+// #resume .highlight,
+// #resume .gist-file,
+// #resume .pagination,
+// #resume .resume-container,
+// hr {
+// 	// max-width: $container-max-width; //should match .container max-width 
+// 	// margin-left: 10rem;
+// }
+
+#resume .resume-item {
+	line-height: 120%;
+	margin-top: 8px;
+}
+
+#resume .resume-skill-item {
+	// max-width: $container-max-width;
+	// margin-left: 10rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+@media print {
+	.resume-no-print {
+		display: none !important;
+	}
+}
+
+#resume a {
+	color: #515151;
+}
+
+#resume a:hover {
+	color: #2196F3;
+	text-decoration: none;
+}
+
+#resume .paper-misc {
+	color: #9a9a9a;
+	// color: #2196F3;
+}
+
+#resume .paper-misc a {
+	color: #9a9a9a;
+	// color: #2196F3;
+}
+
+#resume .paper-misc a:hover {
+	// color: #9a9a9a;
+	color: #2196F3;
+}
+
+#resume h3 {
+	margin-top: 1.5rem;
+	font-weight: 300;
+	page-break-after: avoid;
+}
+
+#resume h2 {
+	margin-top: 2.5rem;
+	font-weight: 300;
+	color: #313131;
+}
+
+#resume h1 {
+	color: #313131;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#resume strong {
+	color: #303030;
+	font-size: 1em;
+}
+
+#resume .resume-blue-link a {
+	color: #2196F3;
+}
+
+// #resume .resume-left-date {
+// 	margin-left: -12rem;
+// 	margin-right: 2rem;
+// 	text-align: right;
+// 	width: 10rem;
+// 	display: inline-block;
+// 	font-size: 0.7em;
+// 	margin-top:0;
+// 	margin-bottom:0;
+// 	padding:0;
+// }
+
+#resume .resume-title-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin: 0px;
+}
+
+#resume .resume-right-date {
+	text-align: right;
+	display: inline-block;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.resume-spacer {
+	margin-top:5px;
+	display:block;
+}
+
+.resume-spacer-award {
+	margin-top: 5px;
+	display: block;
+}
+
+.resume-spacer-line {
+	margin-top: 5px;
+	display: block;
+	background-color: #eee;
+	height: 1px;
+	max-width: 250px;
+	margin-bottom: 5px;
+}
+
+#resume .resume-description {
+	color: #9a9a9a;
+	font-weight: 300;
+}
+
+#resume .resume-description a {
+	color: #9a9a9a;
+}
+
+#resume .resume-description a:hover {
+	color: #2196F3;
+}
+
+#resume .resume-max-width {
+	max-width: $container-max-width;
+	padding-left: 0rem;
+	display: block;
+	font-size: 18px;
+}

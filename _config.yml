@@ -1,0 +1,36 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Siwei "Robert" Li
+tagline:             Under Development
+url:                 ""
+baseurl:             ""
+
+# Google Analytics Tracking Code (Ignore if you are not using Google Analytics)
+ga_tracking_code:    UA-116657822-1
+
+# CV Theme
+# - This is different from Jekyll Theme
+# - This selects a layout in the _includes/cv_themes directory for your CV
+# - You can select from the existing themes or easily create new ones
+cv_theme:            print_only_cv.html
+resume_theme:        print_only_resume.html
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Your Contact
+author:
+  name:              Siwei "Robert" Li
+  self_intro:        ""
+  objective:         ""
+  phone:
+  email:             "robertsli1998@gmail.com"
+  website:           http://siweili.org
+  twitter:
+  github:            RSLi
+  linkedin:          robertsiweili
+  googlescholar:
+

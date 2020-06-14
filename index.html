@@ -1,0 +1,115 @@
+---
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        {{ site.title }}
+    </title>
+
+    <!-- Google Analytics -->
+    <script>
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', '{{ site.ga_tracking_code }}', 'auto');
+            ga('send', 'pageview');
+            </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+</head>
+  
+<body>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.app-center {
+    min-width: 300px;
+    max-width: 98vw;
+    max-height: 98vh;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 16px -6px rgba(0,0,0,0.75);
+}
+.app-center__title {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    font-size: 42px;
+    padding: 18px 25px 18px 25px;
+}
+.app-button-list {
+    padding: 18px 25px 18px 25px;
+}
+.app-button-list__item {
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    margin: 4px 2px 4px 2px;
+    background-color: rgba(220, 20, 60, 0.9);
+    color: white;
+    border-radius: 4px;
+}
+.app-button-list__item:hover {
+    background-color: rgba(220, 20, 60, 0.6);
+}
+</style>
+
+<div class="app-container">
+    <div class="app-center">
+        <div class="app-center__title">
+            Siwei "Robert" Li
+        </div>
+        <hr />
+        <div class="app-button-list">
+            <a class="app-button-list__item" href="https://github.com/{{ site.author.github }}" target="_blank">
+                Github
+            </a>
+            <a class="app-button-list__item" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
+                LinkedIn
+            </a>
+            <a class="app-button-list__item" href="mailto:{{ site.author.email }}">
+                Email
+            </a>
+            <a class="app-button-list__item" href="{{ site.baseurl }}/cv" target="_blank">
+                CV
+            </a>
+            <a class="app-button-list__item" href="{{ site.baseurl }}/resume" target="_blank">
+                Resume
+            </a>
+            <a class="app-button-list__item" href="{{ site.baseurl }}/download/resume.pdf" target="_blank">
+                Download Resume PDF
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
