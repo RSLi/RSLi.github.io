@@ -26,12 +26,12 @@
   name: Experience
 
 - type: experience
-  date: Starting 2020
+  date: June 2020 - Present
   org: Google
   role: Software Engineer II (L3)
-  location: Mountain View, CA
+  location: San Francisco, CA
   detail_secondary:
-    - "Joining Google starting May 2020."
+    - "Building and improving mission-critical internal data pipeline systems."
 
 - type: experience
   date: Summer 2019
@@ -61,15 +61,15 @@
     - "Developed an extensible analytics tool in <b>Java/Electron/React/d3</b> that enables engineers to
 create automated sequences that generate various analysis reports; estimated to <b>reduce 30% of testing time</b>."
 
-- type: experience
-  date: Spring 2017
-  org: Georgia Institute of Technology
-  role: Research Experiences for Undergraduates (REU), School of Interactive Computing
-  location: Atlanta, GA
-  detail_primary:
-    - "Mentor: Prof. Mark Guzdial"
-  detail_secondary:
-    - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
+# - type: experience
+#   date: Spring 2017
+#   org: Georgia Institute of Technology
+#   role: Research Experiences for Undergraduates (REU), School of Interactive Computing
+#   location: Atlanta, GA
+#   detail_primary:
+#     - "Mentor: Prof. Mark Guzdial"
+#   detail_secondary:
+#     - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
 
 #------------------------------------
 # Publications
@@ -77,6 +77,13 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: section
   name: Publications
+
+- type: publication
+  date: CIKM'20
+  title: "Argo Lite: Open-Source Interactive Graph Exploration and Visualization in Browsers"
+  authors: <b>Siwei Li</b>, Zhiyan Zhou, Anish Upadhayay, Omar Shaikh, Scott Freitas, Haekyu Park, Zijie J. Wang, Susanta Routray, Matthew Hull, Duen Horng Chau
+  venue:  29th ACM International Conference on Information and Knowledge Management (CIKM'20), October 19–23, 2020, Virtual Event, Ireland.
+  detail: "Track: Resource"
 
 - type: publication
   date: KDD'19

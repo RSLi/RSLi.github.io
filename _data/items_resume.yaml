@@ -26,6 +26,14 @@
   name: Experience
 
 - type: experience
+  date: June 2020 - Present
+  org: Google
+  role: Software Engineer II (L3)
+  location: San Francisco, CA
+  detail_secondary:
+    - "Building and improving mission-critical internal data pipeline systems."
+
+- type: experience
   date: Summer 2019
   org: Google
   role: Software Engineering Intern
@@ -53,16 +61,6 @@
     - "Developed an extensible analytics tool in <b>Java/Electron/React/d3</b> that enables engineers to
 create automated sequences that generate various analysis reports; estimated to <b>reduce 30% of testing time</b>."
 
-# - type: experience
-#   date: Spring 2017
-#   org: Georgia Institute of Technology
-#   role: Research Experiences for Undergraduates (REU), School of Interactive Computing
-#   location: Atlanta, GA
-#   detail_primary:
-#     - "Mentor: Prof. Mark Guzdial"
-#   detail_secondary:
-#     - "Improved and extended Runestone Interactive - an open-source K-12 interactive ebook platform for teaching computer science used by <b>500+ institutions</b> around the world."
-
 #------------------------------------
 # Publications
 #------------------------------------
@@ -71,61 +69,75 @@ create automated sequences that generate various analysis reports; estimated to 
   name: Selected Publications
 
 - type: publication
+  date: CIKM'20
+  title: "Argo Lite: Open-Source Interactive Graph Exploration and Visualization in Browsers"
+  authors: <b>Siwei Li</b>, Zhiyan Zhou, Anish Upadhayay, Omar Shaikh, Scott Freitas, Haekyu Park, Zijie J. Wang, Susanta Routray, Matthew Hull, Duen Horng Chau
+  venue:  29th ACM International Conference on Information and Knowledge Management (CIKM'20), October 19–23, 2020, Virtual Event, Ireland.
+  detail: "Track: Resource"
+
+- type: publication
+  date: KDD'19
+  title: "MLsploit: A Framework for Interactive Experimentation with Adversarial Machine Learning Research"
+  authors: Nilaksh Das, <b>Siwei Li</b>, Chanil Jeon, Jinho Jung, Shang-Tse Chen, Carter Yagemann, Evan Downing, Haekyu Park, Evan Yang, Li Chen, Michael Kounavis, Ravi Sahita, David Durham, Scott Buck, Polo Chau, Taesoo Kim and Wenke Lee
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 4, 2019. Anchorage, Alaska USA.
+  detail: "Project Showcase, Oral presentation"
+
+- type: publication
+  date: IDC'19
+  title: "Mixed Reality for Learning Programming"
+  authors: Joonyoung Kim, Sudeep Agarwal, Kristina Marotta, <b>Siwei Li</b>, Jonathan Leo, Duen Horng (Polo) Chau 
+  venue: 18th ACM Conference on Interaction Design and Children, Jun. 2019.
+  detail: "Poster, <b>Honorable Mention</b>"
+
+- type: publication
   date: KDD'18
   title: "Shield: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"
   authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
   venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
   detail: "Track: Applied Data Science <b>Audience Appreciation Award Runner Up</b>"
 
-# - type: publication
-#   date: KDD'18
-#   title: "Compression to the Rescue: Defending from Adversarial Attacks Across Modalities"
-#   authors: Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, <b>Siwei Li</b>, Li Chen, Michael E. Kounavis, Duen Horng Chau
-#   venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). Aug 19, 2018. London, UK.
-#   detail: "Track: Project Showcase"
-
 #------------------------------------
 # Projects
 #------------------------------------
 
-- type: section
-  name: Selected Projects
+# - type: section
+#   name: Selected Projects
 
-- type: project-2-line
-  date: Fall 2018 - Spring 2019
-  title_primary: Intel MLSploit
-  title_secondary: Adversarial Machine Learning Research Platform
-  detail: Developed an extensible research platform for security and ML researchers to interactively construct transformation and evaluation pipelines.
+# - type: project-2-line
+#   date: Fall 2018 - Spring 2019
+#   title_primary: Intel MLSploit
+#   title_secondary: Adversarial Machine Learning Research Platform
+#   detail: Developed an extensible research platform for security and ML researchers to interactively construct transformation and evaluation pipelines.
 
-- type: project-2-line
-  date: Spring - Fall 2018
-  title_primary: NIH mHealth Visual Discovery Dashboard
-  title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
-  detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform, a $11.8M project by <b>NIH MD2K Center of Excellence</b>.
+# - type: project-2-line
+#   date: Spring - Fall 2018
+#   title_primary: NIH mHealth Visual Discovery Dashboard
+#   title_secondary: Part of NIH's MD2K (Mobile Sensor Data-to-Knowledge) Initiative
+#   detail: Developed an analytics dashboard for timeseries health data collected from mobile devices using Kotlin and React. Integrated into Cerebral Cortex Data Analytics Platform, a $11.8M project by <b>NIH MD2K Center of Excellence</b>.
 
-- type: project-2-line
-  date: Fall 2017 - Present
-  title_primary: Argo Graph
-  title_secondary: Large-scale Graph Visualization Tool
-  detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using WebGL, Node, and SQLite. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
+# - type: project-2-line
+#   date: Fall 2017 - Present
+#   title_primary: Argo Graph
+#   title_secondary: Large-scale Graph Visualization Tool
+#   detail: Developing the next cross-platform interactive graph visualization tool capable of handling <b>million-edge</b> scale network data using WebGL, Node, and SQLite. Argo is used in <b>CSE 6242 Data and Visual Analytics</b> course, that <b>teaches over 1000 students</b> per year.
 
 
 #------------------------------------
 # Personal Projects
 #------------------------------------
 
-- type: section
-  name: Selected Personal and Open Source Projects
+# - type: section
+#   name: Selected Personal and Open Source Projects
 
-- type: project-1-line
-  date: "Spring 2018"
-  title: NSF Smart Meter Data Portal
-  detail: Searchable Github-based data-sharing platform for energy researchers
+# - type: project-1-line
+#   date: "Spring 2018"
+#   title: NSF Smart Meter Data Portal
+#   detail: Searchable Github-based data-sharing platform for energy researchers
 
-- type: project-1-line
-  date: "Fall 2017 - Fall 2018"
-  title: HackGT/SponsorshipPortal
-  detail: Intelligent portal for hackathon sponsors to search resumes of participants
+# - type: project-1-line
+#   date: "Fall 2017 - Fall 2018"
+#   title: HackGT/SponsorshipPortal
+#   detail: Intelligent portal for hackathon sponsors to search resumes of participants
 
 # - type: project-1-line
 #   date: "Spring 2017"
@@ -141,26 +153,26 @@ create automated sequences that generate various analysis reports; estimated to 
 # Leadership
 #------------------------------------
 
-- type: section
-  name: On-campus Activities
+# - type: section
+#   name: On-campus Activities
 
-- type: experience
-  date: Fall 2018 - Fall 2019
-  org: "VIP Project: Health Informatics on FHIR"
-  role: Development Team Lead
-  location: Atlanta, GA
-  detail_primary:
-  detail_secondary:
-    - "Develop FHIR applications to improve Emergency Room and Triage efficiency. Currently working with Grady Memorial Hospital, the fifth-largest public hospital in the US, with one of the busiest ER in the country."
+# - type: experience
+#   date: Fall 2018 - Fall 2019
+#   org: "VIP Project: Health Informatics on FHIR"
+#   role: Development Team Lead
+#   location: Atlanta, GA
+#   detail_primary:
+#   detail_secondary:
+#     - "Develop FHIR applications to improve Emergency Room and Triage efficiency. Currently working with Grady Memorial Hospital, the fifth-largest public hospital in the US, with one of the busiest ER in the country."
 
-- type: experience
-  date: Spring 2017 - Fall 2019
-  org: HackGT Organizers Team
-  role: Organizing <b>Largest</b> College Hackathon in the Southeast <b>(1000+ Students)</b>
-  location: Atlanta, GA
-  detail_primary:
-  detail_secondary:
-    - "Hold hackathons and workshops; make open source projects for event organizers; mentor beginners and high school students."
+# - type: experience
+#   date: Spring 2017 - Fall 2019
+#   org: HackGT Organizers Team
+#   role: Organizing <b>Largest</b> College Hackathon in the Southeast <b>(1000+ Students)</b>
+#   location: Atlanta, GA
+#   detail_primary:
+#   detail_secondary:
+#     - "Hold hackathons and workshops; make open source projects for event organizers; mentor beginners and high school students."
 
 #------------------------------------
 # Skills
@@ -171,7 +183,7 @@ create automated sequences that generate various analysis reports; estimated to 
 
 - type: skill-items
   category: Languages
-  items: Java, Python, JavaScript (ES6+), TypeScript, Kotlin, Swift, C++, SQL, Bash, PHP, Go
+  items: C++, Go, Java, Python, JavaScript (ES6+), TypeScript, Kotlin, Swift, SQL
 
 - type: skill-items
   category: Web
